@@ -1,1 +1,1 @@
-# IoTsmrt
+# IoTsmart

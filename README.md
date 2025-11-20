@@ -1,2 +1,2 @@
 # IoTsmart
-IoTsmart carrier modules. Integrate PICO/Nano with IoTextra digital&analog mezzanines. Features RS485 & 1-Wire. Fully ready for Node-RED, Blynk. IoTflow software
+IoTsmart SoM Controllers (RP2040/RP2350/ESP32) for IoT, Smart Home & Automation. Powerful multi-core MCU, Wi-Fi/BT. Seamlessly compatible with IoTextra modules

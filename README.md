@@ -1,138 +1,120 @@
-# IoTsmart Series  
-RP2040, RP2350A & ESP32-S3 MCU Modules for IoT & Node-RED Automation
+# IoTsmart Series: RP2040, RP2350A & ESP32-S3 for MQTT & Node-RED Automation
+
+## Overview
 
 **IoTsmart** is a family of compact, high-performance System-on-Module (SoM) boards designed for IoT, smart home, and small-scale industrial automation.  
-The series includes three MCU platforms — **RP2040**, **RP2350A**, and **ESP32-S3** — each optimized for different connectivity, compute, and workflow automation needs.
+The series includes three core modules — **RP2040**, **RP2350A**, and **ESP32-S3** — each optimized for different compute, connectivity, and automation requirements.
 
-IoTsmart modules integrate seamlessly with **IoTextra-Digital** hardware and support **IoTflow**, enabling **no-code programming for distributed MCU nodes** across MQTT and Node-RED ecosystems.
-
----
-
-## 📦 Module Index
-
-Each module includes versioned documentation (datasheet, schematic), media, and example code.
-
-| Module | Architecture | Connectivity | Folder |
-|--------|--------------|--------------|--------|
-| **RP2040** | Dual-core Arm Cortex-M0+ | USB | [RP2040/v1.02](./RP2040/v1.02/) |
-| **RP2350A** | Dual Cortex-M33 + Dual Hazard3 RISC-V | USB | [RP2350A/v1.02](./RP2350A/v1.02/) |
-| **ESP32-S3** | Dual-core Xtensa LX7 | Wi-Fi + Bluetooth | [ESP32-S3/v1.02](./ESP32-S3/v1.02/) |
-| **XIAO (Coming Soon)** | TBD | TBD | [XIAO/v1.02](./XIAO/v1.02/) |
+IoTsmart modules integrate seamlessly with IoTextra-Digital hardware and support **IoTflow**, which enables **no-code programming for distributed MCU nodes** using MQTT and Node-RED.
 
 ---
 
-## 🧠 Platform Differences & MCU Specifications
+## Platform Differences & MCU Specifications
 
 ### **RP2040**
-- Dual-core Arm Cortex-M0+ @ 133 MHz  
-- Low-latency GPIO and deterministic timing  
-- Ideal for local sensor/actuator control  
-- Raspberry Pi PICO-compatible form factor  
+- Dual-core Arm Cortex-M0+ (133 MHz)  
+- Predictable timing and low-latency digital I/O  
+- Ideal for GPIO-driven sensors, actuators, and event logic  
+- Raspberry Pi PICO–compatible form factor  
 
 ### **RP2350A**
-Next-generation microcontroller featuring a **dual-architecture design**:
+A next-generation microcontroller **packing a dual-core, dual-architecture design**:
 - **Dual-core Arm Cortex-M33 processors**  
-- **Dual-core Hazard3 RISC-V processors**  
-Offers significantly higher performance, advanced event handling, and improved security.
+- **Dual-core Hazard 3 RISC-V processors**  
+
+This platform offers significantly improved performance, enhanced security, and advanced event-processing capacity for demanding automation tasks.
 
 ### **ESP32-S3**
 - Dual-core Xtensa LX7  
 - Integrated **Wi-Fi + Bluetooth**  
 - Hardware acceleration for AI/ML tasks  
-- Ideal for wireless automation and cloud-connected workflows
+- Ideal for wireless automation, cloud workflows, and API-driven systems  
 
 ### **IoTsmart XIAO (Coming Soon)**
-A compact, minimal SoM for space-constrained, embedded, or wearable IoT applications.
+A compact, minimal form factor ideal for embedded, wearable, or space-constrained IoT applications.  
+Full documentation will be added in a future release.
 
 ---
 
-## 🔧 Features & Capabilities
+## Features & Capabilities
 
 - Reliable MCU platforms for IoT and IIoT deployments  
-- Clean integration with **IoTextra-Digital** modules  
-- Stable performance across GPIO, PWM, UART, I²C, and SPI  
+- Clean physical and logical integration with IoTextra-Digital modules  
+- Stable performance across GPIO, PWM, UART, I²C, and SPI interfaces  
 - Optional wireless connectivity (ESP32-S3)  
-- Raspberry Pi PICO–compatible pinouts (RP2040 / RP2350A)  
+- Raspberry Pi PICO–compatible pinouts for RP2040/RP2350A  
 - Suitable for **prototyping and small-batch production**  
 
 ---
 
-## 🛠 Hardware Documentation
+## Hardware Specifications
 
-Each module folder contains:
+Full hardware specifications — including pinouts, voltage ratings, PCB layouts, and electrical characteristics — are located inside the module folders:
 
-- **/docs** – Datasheet and pinout diagrams  
-- **/hardware** – Schematics (PDF)  
-- **/media** – 3D renders, PCB images, host-pairing diagrams  
-- **/examples** – MCU-specific reference examples  
+- **[RP2040](./RP2040/)**  
+- **[RP2350A](./RP2350A/)**  
+- **[ESP32-S3](./ESP32-S3/)**  
+- **[XIAO](./XIAO/)** (Coming Soon)
 
-Quick access:
-
-- **RP2040** → [RP2040/v1.02](./RP2040/v1.02/)  
-- **RP2350A** → [RP2350A/v1.02](./RP2350A/v1.02/)  
-- **ESP32-S3** → [ESP32-S3/v1.02](./ESP32-S3/v1.02/)  
-- **XIAO (Coming Soon)** → [XIAO/v1.02](./XIAO/v1.02/)  
+Each module directory includes its own documentation.  
+Versioned subfolders (e.g., `v1.xx`) will be added by the development team in future updates.
 
 ---
 
-## ⚙ Configuration & Setup Guide
+## Configuration & Setup Guide
 
-All IoTsmart modules follow a unified setup workflow:
-
-1. Select your module (RP2040, RP2350A, ESP32-S3).  
-2. Review pinouts and electrical notes inside the module’s `/docs/` folder.  
-3. Wire the board to IoTextra-Digital modules, sensors, or relays.  
-4. Flash firmware using **USB**, **SWD**, **Arduino IDE**, or **MicroPython** (depending on MCU).  
-5. Integrate your node into MQTT or Node-RED automations using **IoTflow** or your preferred workflow engine.
+1. Select an IoTsmart module (RP2040, RP2350A, or ESP32-S3).  
+2. Review the module’s pinout, electrical ratings, and wiring notes in its folder.  
+3. Connect the board to IoTextra-Digital modules or external sensors/actuators.  
+4. Flash your firmware via **USB**, **SWD**, **Arduino IDE**, or **MicroPython** (depending on MCU).  
+5. Integrate the MCU into your MQTT or Node-RED automation using **IoTflow** or your own tooling.
 
 ---
 
-## 🧑‍💻 Software Support
+## Software Support
 
-IoTsmart modules are compatible with:
+IoTsmart modules support a variety of development environments:
 
-- **IoTflow** — enables no-code workflow automation for distributed MCU nodes  
-- **MQTT** — event-driven messaging  
+- **IoTflow** — no-code workflow automation for distributed MCU nodes  
+- **MQTT** — event-driven device messaging  
 - **Node-RED** — workflow orchestration  
-- **Arduino IDE** — easy firmware development  
-- **MicroPython / CircuitPython** — lightweight scripting  
-- **C/C++ SDKs** — for advanced embedded projects  
-
-### Examples
-
-Reference examples are available in:
-
-👉 **[`/examples/`](./examples/)**  
-Contains Python examples and general reference code for supported MCUs.
+- **Arduino IDE** — rapid firmware prototyping  
+- **MicroPython / CircuitPython** — lightweight scripting environments  
+- **C/C++ SDKs** — for advanced embedded development  
 
 ---
 
-## 🛒 Ordering Information
+## Examples
 
-Each module directory contains:
+IoTsmart does **not** yet include its own `/examples` directory.  
+Firmware examples and reference templates will be added in a future update by the development team.
 
-- SKU / part numbers  
-- Ordering notes  
-- Supported IoTextra modules  
-- Mechanical details  
+For complete MQTT and Node-RED automation examples using IoTsmart + IoTextra-Digital, see:
 
-Browse module folders:
+👉 **IoTflow Node-RED Examples**  
+https://github.com/makethingshappy/IoTflow/tree/main/Node-RED%20Examples
 
-- `/RP2040/`  
-- `/RP2350A/`  
-- `/ESP32-S3/`  
-- `/XIAO/` (Coming Soon)
+---
+
+## Ordering Information
+
+For SKUs, ordering codes, and module-specific details, see the module folders:
+
+- **[RP2040](./RP2040/)**  
+- **[RP2350A](./RP2350A/)**  
+- **[ESP32-S3](./ESP32-S3/)**  
+- **[XIAO](./XIAO/)** (Coming Soon)
 
 📄 **SKU Sheet:**  
 [`SKU IoTsmart.pdf`](./SKU%20IoTsmart.pdf)
 
 ---
 
-## 📜 Licensing
+## Licensing
 
-Separate licenses apply depending on asset category:
+This repository uses separate licenses per asset type:
 
-- **Code** → [LICENSE_CODE.md](./LICENSE_CODE.md)  
-- **Schematics & Hardware Docs** → [LICENSE_HARDWARE.md](./LICENSE_HARDWARE.md) (CC BY-SA 4.0)  
-- **Documentation** → [LICENSE_DOCS.md](./LICENSE_DOCS.md)  
-- **Media** → [LICENSE_MEDIA.md](./LICENSE_MEDIA.md)  
+- **Code:** [`LICENSE_CODE.md`](./LICENSE_CODE.md) — MIT License  
+- **Schematics & Documentation:** [`LICENSE_HARDWARE.md`](./LICENSE_HARDWARE.md) — CC BY-SA 4.0  
+- **Documentation:** [`LICENSE_DOCS.md`](./LICENSE_DOCS.md)  
+- **Media:** [`LICENSE_MEDIA.md`](./LICENSE_MEDIA.md)

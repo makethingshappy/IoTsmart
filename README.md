@@ -98,15 +98,24 @@ https://github.com/makethingshappy/IoTflow/tree/main/Node-RED%20Examples
 
 ## Ordering Information
 
-For SKUs, ordering codes, and module-specific details, see the module folders:
+### 📦 SKU Information  
+The full SKU list is available in the repository root:
 
-- **[RP2040](./RP2040/)**  
-- **[RP2350A](./RP2350A/)**  
-- **[ESP32-S3](./ESP32-S3/)**  
-- **[XIAO](./XIAO/)** (Coming Soon)
+- **[`SKU IoTsmart.pdf`](./SKU%20IoTsmart.pdf)**
 
-📄 **SKU Sheet:**  
-[`SKU IoTsmart.pdf`](./SKU%20IoTsmart.pdf)
+---
+
+### 🛒 Purchase Links  
+Order IoTsmart modules directly from the official store:
+
+- **IoTsmart RP2040:**  
+  https://makethingshappy.io/collections/iotsmart/products/iotsmart-rp2040
+
+- **IoTsmart RP2350A:**  
+  https://makethingshappy.io/collections/iotsmart/products/iotsmart-rp2350
+
+- **IoTsmart ESP32-S3:**  
+  https://makethingshappy.io/collections/iotsmart/products/iotsmart-esp32-s3
 
 ---
 

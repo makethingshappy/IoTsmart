@@ -3,9 +3,9 @@
 ## Overview
 
 **IoTsmart** is a family of compact, high-performance System-on-Module (SoM) boards designed for IoT, smart home, and small-scale industrial automation.  
-The series includes three core modules — **RP2040**, **RP2350A**, and **ESP32-S3** — each optimized for different compute, connectivity, and automation requirements.
+The series includes four core modules — [**RP2040**](https://makethingshappy.io/products/iotsmart-rp2040), [**RP2350A**](https://makethingshappy.io/products/iotsmart-rp2350), [**ESP32-S3**](https://makethingshappy.io/products/iotsmart-esp32-s3) and [**XIAO**](https://makethingshappy.io/products/iotsmart-xiao) — each optimized for different compute, connectivity, and automation requirements.
 
-IoTsmart modules integrate seamlessly with IoTextra-Digital hardware and support **IoTflow**, which enables **no-code programming for distributed MCU nodes** using MQTT and Node-RED.
+IoTsmart modules integrate seamlessly with [IoTextra-Digital](https://makethingshappy.io/collections/digital-iotextra) hardware and support [**IoTflow**](https://makethingshappy.io/pages/iotflow), which enables **no-code programming for distributed MCU nodes** using MQTT and Node-RED.
 
 ---
 
@@ -30,7 +30,7 @@ This platform offers significantly improved performance, enhanced security, and 
 - Hardware acceleration for AI/ML tasks  
 - Ideal for wireless automation, cloud workflows, and API-driven systems  
 
-### **IoTsmart XIAO (Coming Soon)**
+### **IoTsmart XIAO**
 A compact, minimal form factor ideal for embedded, wearable, or space-constrained IoT applications.  
 Full documentation will be added in a future release.
 

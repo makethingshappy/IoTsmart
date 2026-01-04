@@ -5,7 +5,7 @@
 **IoTsmart** is a family of compact, high-performance System-on-Module (SoM) boards designed for IoT, smart home, and small-scale industrial automation.  
 The series includes four core modules — [**RP2040**](https://makethingshappy.io/products/iotsmart-rp2040), [**RP2350A**](https://makethingshappy.io/products/iotsmart-rp2350), [**ESP32-S3**](https://makethingshappy.io/products/iotsmart-esp32-s3) and [**XIAO**](https://makethingshappy.io/products/iotsmart-xiao) — each optimized for different compute, connectivity, and automation requirements.
 
-IoTsmart modules integrate seamlessly with [IoTextra-Digital](https://makethingshappy.io/collections/digital-iotextra) hardware and support [**IoTflow**](https://makethingshappy.io/pages/iotflow), which enables **no-code programming for distributed MCU nodes** using MQTT and Node-RED.
+IoTsmart modules integrate seamlessly with [**IoTextra-Digital**](https://makethingshappy.io/collections/digital-iotextra) hardware and support [**IoTflow**](https://makethingshappy.io/pages/iotflow), which enables **no-code programming for distributed MCU nodes** using MQTT and Node-RED.
 
 ---
 

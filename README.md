@@ -54,7 +54,7 @@ Full hardware specifications — including pinouts, voltage ratings, PCB layouts
 - **[RP2040](./RP2040/)**  
 - **[RP2350A](./RP2350A/)**  
 - **[ESP32-S3](./ESP32-S3/)**  
-- **[XIAO](./XIAO/)** (Coming Soon)
+- **[XIAO](./XIAO/)**
 
 Each module directory includes its own documentation.  
 Versioned subfolders (e.g., `v1.xx`) will be added by the development team in future updates.

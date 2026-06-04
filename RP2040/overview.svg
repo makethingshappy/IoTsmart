@@ -1,0 +1,10 @@
+<svg width="100%" viewBox="0 0 680 120" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>IoTsmart RP2040 overview</title>
+<desc>IoTsmart RP2040 — SoM controller based on Raspberry Pi RP2040</desc>
+<rect x="0" y="0" width="680" height="120" rx="10" fill="none" stroke="#e0e0de" stroke-width="0.5"/>
+<rect x="0" y="0" width="6" height="120" rx="3" fill="#8f0000"/>
+<text x="30" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18" font-weight="500" fill="#111111">IoTsmart RP2040</text>
+<text x="30" y="60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#444444">SoM controller · Raspberry Pi RP2040 · plugs directly into IoTextra mezzanine modules</text>
+<text x="30" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#444444">H-HOST or V-HOST connector · Qwiic · Open Hardware · Open Source firmware (MicroPython)</text>
+<text x="30" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#888888">Part of the IoTsmart series · compatible with IoTextra mezzanine modules · Make Things Happy!</text>
+</svg>

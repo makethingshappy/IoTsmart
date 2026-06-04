@@ -1,13 +1,13 @@
-# SKU — IoTsmart RP2350A
+# SKU — IoTsmart XIAO
 
 ```
-020102vvv0eh
+020121vvv0eh
 ```
 
 | Field | Description |
 |---|---|
-| `020102` | Product code — IoTsmart RP2350A |
-| `vvv` | Version (e.g. 202 = version 2.02) |
+| `020121` | Product code — IoTsmart XIAO |
+| `vvv` | Version (e.g. 102 = version 1.02) |
 | `0` | Fixed |
 | `e` | EYESPI connector |
 | `h` | HOST connector type |

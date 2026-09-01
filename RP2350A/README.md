@@ -8,8 +8,6 @@
 > Part of the IoTsmart series · compatible with IoTextra mezzanine modules · Make Things Happy!
 <!-- OVERVIEW_END -->
 
-![software](3-logo.svg)
-
 ## SKU
 
 See [SKU.md](SKU.md)

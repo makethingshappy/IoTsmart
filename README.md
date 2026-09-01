@@ -98,9 +98,11 @@ https://github.com/makethingshappy/IoTflow/tree/main/Node-RED%20Examples
 ## Ordering Information
 
 ### 📦 SKU Information  
-The full SKU list is available in the repository root:
+The SKU list for each module is available inside its own folder:
 
-- **[`SKU IoTsmart.pdf`](./SKU%20IoTsmart.pdf)**
+- [RP2040/SKU.md](RP2040/SKU.md)
+- [RP2350A/SKU.md](RP2350A/SKU.md)
+- [ESP32-S3/SKU.md](ESP32-S3/SKU.md)
 
 ---
 

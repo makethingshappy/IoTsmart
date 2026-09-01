@@ -42,7 +42,6 @@ Full documentation will be added in a future release.
 - Clean physical and logical integration with IoTextra-Digital modules  
 - Stable performance across GPIO, PWM, UART, I²C, and SPI interfaces  
 - Optional wireless connectivity (ESP32-S3)  
-- Raspberry Pi PICO–compatible pinouts for RP2040/RP2350A  
 - Suitable for **prototyping and small-batch production**  
 
 ---

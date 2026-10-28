@@ -1,0 +1,60 @@
+kind: carrier
+product: IoTsmart XIAO
+revision: "1.02"
+# HOST AP0-AP7 / I2C -> MCU pin of the plug-in board (GPIO number, or port pin for EFR32)
+# Source: IoTsmart XIAO 1.02 schematic (HOST net -> XIAO socket pin)
+#       + vendor schematic of each board (XIAO pin -> GPIO)
+# Socket: AP0=D9 AP1=D10 AP2=D8 AP3=D7 AP4=D0 AP5=D1 AP6=D2 AP7=D3 SDA=D4 SCL=D5
+boards:
+  xiao-esp32s3:
+    vendor: Seeed Studio
+    model: XIAO ESP32S3
+    mcu: ESP32-S3
+    host:
+      AP0: 8
+      AP1: 9
+      AP2: 7
+      AP3: 44
+      AP4: 1
+      AP5: 2
+      AP6: 3
+      AP7: 4
+      I2C:
+        bus: 0        # convention: ESP32 routes I2C via GPIO matrix
+        SDA: 5
+        SCL: 6
+  xiao-esp32c6:
+    vendor: Seeed Studio
+    model: XIAO ESP32C6
+    mcu: ESP32-C6
+    host:
+      AP0: 20
+      AP1: 18
+      AP2: 19
+      AP3: 17
+      AP4: 0
+      AP5: 1
+      AP6: 2
+      AP7: 21
+      I2C:
+        bus: 0        # convention: ESP32 routes I2C via GPIO matrix
+        SDA: 22
+        SCL: 23
+  xiao-mg24:
+    vendor: Seeed Studio
+    model: XIAO MG24
+    mcu: EFR32MG24
+    # EFR32: port pins, not a single GPIO number
+    host:
+      AP0: PA04
+      AP1: PA05
+      AP2: PA03
+      AP3: PC07
+      AP4: PC00
+      AP5: PC01
+      AP6: PC02
+      AP7: PC03
+      I2C:
+        bus: 0        # i2c0, as in Seeed MicroPython (XiaoI2C "i2c0")
+        SDA: PC04
+        SCL: PC05

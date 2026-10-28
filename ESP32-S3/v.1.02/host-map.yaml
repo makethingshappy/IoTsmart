@@ -1,0 +1,20 @@
+kind: som
+product: IoTsmart ESP32-S3
+revision: "1.02"
+mcu: ESP32-S3
+module: Waveshare ESP32-S3-Tiny
+# HOST AP0-AP7 / I2C -> GPIO MCU
+# Source: IoTsmart schematic (net -> U2 pad) + Waveshare ESP32-S3-Tiny schematic (pad -> GPIO)
+host:
+  AP0: 8
+  AP1: 9
+  AP2: 10
+  AP3: 11
+  AP4: 4
+  AP5: 5
+  AP6: 6
+  AP7: 7
+  I2C:
+    bus: 0        # convention: ESP32 routes I2C via GPIO matrix
+    SDA: 16
+    SCL: 15

@@ -1,0 +1,20 @@
+kind: som
+product: IoTsmart RP2040
+revision: "1.02"
+mcu: RP2040
+module: Waveshare RP2040-Tiny
+# HOST AP0-AP7 / I2C -> GPIO MCU
+# Source: IoTsmart schematic (net -> U2 pad) + Waveshare RP2040-Tiny schematic (pad -> GPIO)
+host:
+  AP0: 12
+  AP1: 11
+  AP2: 10
+  AP3: 9
+  AP4: 26
+  AP5: 15
+  AP6: 14
+  AP7: 13
+  I2C:
+    bus: 0        # fixed by pins: GPIO4/GPIO5 = I2C0
+    SDA: 4
+    SCL: 5

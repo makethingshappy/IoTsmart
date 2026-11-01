@@ -75,11 +75,15 @@ Versioned subfolders (e.g., `v1.xx`) will be added by the development team in fu
 IoTsmart modules support a variety of development environments:
 
 - **IoTflow** — no-code workflow automation for distributed MCU nodes  
+- **MTH for Tasmota** (formerly IoThome) — Tasmota templates and Berry drivers, ESP32-based IoTsmart boards ([IoThome](https://github.com/makethingshappy/IoThome))  
+- **MTH for ESPHome** — ready-to-flash ESPHome configurations, ESP32-based IoTsmart boards ([MTH-for-ESPHome](https://github.com/makethingshappy/MTH-for-ESPHome))  
 - **MQTT** — event-driven device messaging  
 - **Node-RED** — workflow orchestration  
 - **Arduino IDE** — rapid firmware prototyping  
 - **MicroPython / CircuitPython** — lightweight scripting environments  
 - **C/C++ SDKs** — for advanced embedded development  
+
+Which IoTsmart boards and IoTextra modules are supported by which software is shown in the [compatibility tables](https://github.com/makethingshappy#readme).
 
 ---
 

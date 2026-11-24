@@ -111,6 +111,7 @@ The SKU list for each module is available inside its own folder:
 - [RP2040/SKU.md](RP2040/SKU.md)
 - [RP2350A/SKU.md](RP2350A/SKU.md)
 - [ESP32-S3/SKU.md](ESP32-S3/SKU.md)
+- [XIAO/SKU.md](XIAO/SKU.md)
 
 ---
 
@@ -125,6 +126,9 @@ Order IoTsmart modules directly from the official store:
 
 - **IoTsmart ESP32-S3:**  
   https://makethingshappy.io/collections/iotsmart/products/iotsmart-esp32-s3
+
+- **IoTsmart XIAO:**  
+  https://makethingshappy.io/collections/iotsmart/products/iotsmart-xiao
 
 ---
 

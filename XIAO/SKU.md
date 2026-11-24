@@ -7,7 +7,7 @@
 | Field | Description |
 |---|---|
 | `020121` | Product code — IoTsmart XIAO |
-| `vvv` | Version (e.g. 102 = version 1.02) |
+| `vvv` | Version (e.g. 201 = version 2.01) |
 | `0` | Fixed |
 | `e` | EYESPI connector |
 | `h` | HOST connector type |

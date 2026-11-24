@@ -1,4 +1,4 @@
-# IoTsmart Series: RP2040, RP2350A & ESP32-S3 for MQTT & Node-RED Automation
+# IoTsmart Series: RP2040, RP2350A, ESP32-S3 & XIAO for MQTT & Node-RED Automation
 
 ## Overview
 
@@ -31,8 +31,10 @@ This platform offers significantly improved performance, enhanced security, and 
 - Ideal for wireless automation, cloud workflows, and API-driven systems  
 
 ### **IoTsmart XIAO**
-A compact, minimal form factor ideal for embedded, wearable, or space-constrained IoT applications.  
-Full documentation will be added in a future release.
+Carrier for Seeed Studio XIAO and Adafruit QT Py modules — one carrier for many MCUs (ESP32-S3, ESP32-C6, ESP32-C3, RP2040, RP2350, nRF52840, SAMD21, MG24 and others).  
+- **v.1.02** — 40 × 31 mm, H-HOST or V-HOST connector, one Qwiic connector  
+- **v.2.01** — 47 × 30 mm, V-HOST connector, two Qwiic connectors  
+- Optional UART connector, onboard EEPROM
 
 ---
 
@@ -41,7 +43,7 @@ Full documentation will be added in a future release.
 - Reliable MCU platforms for IoT and IIoT deployments  
 - Clean physical and logical integration with IoTextra-Digital modules  
 - Stable performance across GPIO, PWM, UART, I²C, and SPI interfaces  
-- Optional wireless connectivity (ESP32-S3)  
+- Optional wireless connectivity (ESP32-S3; XIAO with ESP32-based modules)  
 - Suitable for **prototyping and small-batch production**  
 
 ---
@@ -56,13 +58,13 @@ Full hardware specifications — including pinouts, voltage ratings, PCB layouts
 - **[XIAO](./XIAO/)**
 
 Each module directory includes its own documentation.  
-Versioned subfolders (e.g., `v1.xx`) will be added by the development team in future updates.
+Each hardware revision has its own subfolder (e.g., `v.2.01`) with the datasheet, schematic, `host-map.yaml` and media for that revision.
 
 ---
 
 ## Configuration & Setup Guide
 
-1. Select an IoTsmart module (RP2040, RP2350A, or ESP32-S3).  
+1. Select an IoTsmart module (RP2040, RP2350A, ESP32-S3, or XIAO).  
 2. Review the module’s pinout, electrical ratings, and wiring notes in its folder.  
 3. Connect the board to IoTextra-Digital modules or external sensors/actuators.  
 4. Flash your firmware via **USB**, **SWD**, **Arduino IDE**, or **MicroPython** (depending on MCU).  
@@ -89,8 +91,10 @@ Which IoTsmart boards and IoTextra modules are supported by which software is sh
 
 ## Examples
 
-IoTsmart does **not** yet include its own `/examples` directory.  
-Firmware examples and reference templates will be added in a future update by the development team.
+IoTsmart has no `/examples` directory of its own. Ready-to-use configurations live in the companion repositories:
+
+- Tasmota templates and Berry drivers — [IoThome / Tasmota_Templates](https://github.com/makethingshappy/IoThome/tree/main/Tasmota_Templates)
+- ESPHome configurations — [MTH-for-ESPHome / Configs](https://github.com/makethingshappy/MTH-for-ESPHome/tree/main/Configs)
 
 For complete MQTT and Node-RED automation examples using IoTsmart + IoTextra-Digital, see:
 
